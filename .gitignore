@@ -1,2 +1,32 @@
+# python / env
 env/
+venv/
+.env
 __pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# 数据 / 本地数据库 / 大文件（不要把隐私 / 大文件放到 git）
+data/
+*.sqlite
+*.db
+
+# 打包/编译产物
+dist/
+build/
+
+# 日志与系统文件
+*.log
+.DS_Store
+
+# jars（我们不把 jar 提交到 git，避免 repo 变大）
+jars/
+*.jar
+
+# 密钥 / 私密配置
+secrets/
+private.key
