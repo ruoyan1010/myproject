@@ -1,32 +1,46 @@
-# python / env
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 env/
 venv/
 .env
-__pycache__/
-*.pyc
 .ipynb_checkpoints/
+.ipynb_checkpoints
 
 # IDE
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
 
-# 数据 / 本地数据库 / 大文件（不要把隐私 / 大文件放到 git）
+# Data & local artifacts
 data/
 *.sqlite
 *.db
+*.csv
 
-# 打包/编译产物
-dist/
-build/
+# Jupyter checkpoints
+.ipynb_checkpoints/
 
-# 日志与系统文件
+# logs
+logs/
 *.log
-.DS_Store
 
-# jars（我们不把 jar 提交到 git，避免 repo 变大）
+# jars / large binaries (不要把大二进制提交)
 jars/
 *.jar
 
-# 密钥 / 私密配置
-secrets/
-private.key
+# OS files
+.DS_Store
+Thumbs.db
+
+# node / build
+node_modules/
+dist/
+build/
+
+# other secrets
+secrets.*
+config/*.local.yaml
