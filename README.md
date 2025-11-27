@@ -1,4 +1,13 @@
 # myproject
+
+这是一个简单的示例项目，用于学习 Git 和环境配置。
+
+## 快速开始
+
+### 1. 克隆仓库
+```bash
+git clone git@github.com:ruoyan1010/myproject.git
+cd myproject# myproject
 简介：这是我的数据/ETL 项目。
 
 运行说明：
